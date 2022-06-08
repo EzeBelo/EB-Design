@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/*     border: red dashed; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #505050;
+  width: 100vw;
+  max-width: 100%;
+}
+
+/* NavBar */
+
+.nav_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 20px;
+  background: rgb(255, 212, 93);
+  background: linear-gradient(90deg, rgba(255,212,93,1) 0%, rgba(255,194,25,1) 100%);;
+}
+
+.logo_eb {
+  height: 70px;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+li {
+  list-style: none;
+  margin: 0 5px;
+}
+
+a {
+  color: white;
+  background-color: #f9564f;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 3px 15px;
+}
+a:hover {
+  background-color: #cc1f19;
+}
+
+/* Hero Section */
+
+.hero-container {
+  background-color: #ffd45d;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10rem;
+}
+
+.slogan {
+  width: 400px;
+  text-align: center;
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.p1 {
+  margin: 10px;
+  text-align: center;
+}
+
+.p2 {
+  margin: 10px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.btn-hero {
+  padding: 1rem;
+}
+
+.compu-img {
+  border-radius: 20px;
+  width: 450px;
+}
+
+/* Seccion 2 Informacion*/
+
+.info-container {
+  background: #808080;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  padding: 3rem;
+  text-align: center;
+}
+
+.fa-solid {
+  margin: 2rem;
+  font-size: 8rem;
+}
+
+/*  Seccion 3 Como trabajamos */
+.how-work-section {
+  background: rgb(128,128,128);
+  display: flex;
+  justify-content: center;
+}
+
+.how-work-div {
+  background-color: #6e6e6e;
+  border-radius: 20px;
+  max-width: 98%;
+  margin: 1.5rem auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.how-work-cards {
+  display: flex;
+}
+
+.work-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1rem;
+}
+
+.fa-regular {
+  margin: 2rem;
+  font-size: 4rem;
+  color: rgb(214, 214, 214);
+}
+
+/*  Seccion 4 Productos */
+
+.products-container {
+  background-color: #ffd45d;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.products-title {
+  margin: 3rem auto 1.5rem auto;
+  font-size: larger;
+}
+
+.products-cards {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 2rem;
+}
+
+.product {
+  background-color:#f9564f;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  margin: 1.5rem;
+  width: 20rem;
+  height: 20rem;
+}
+
+
+
+.product-img {
+  width: 200px;
+  margin: 10px;
+}
